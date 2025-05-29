@@ -248,6 +248,12 @@ function Sidenav({ color }) {
             <span className="label">Sign Up</span>
           </NavLink>
         </Menu.Item>
+        <Menu.Item key="8">
+          <NavLink to="/summarypage">
+            <span className="icon">{signup}</span>
+            <span className="label">Summary</span>
+          </NavLink>
+        </Menu.Item>
       </Menu>
       <div className="aside-footer">
         <div
